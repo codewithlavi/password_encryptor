@@ -6,7 +6,7 @@ A Python-based secure password encryption tool that provides:
 - Password decryption
 - Strong password generation
 
-## Prerequisites
+## Requirements
 - Python 3.x
 - cryptography library
 
