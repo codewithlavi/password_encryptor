@@ -1,4 +1,4 @@
-# Secure Password Encryptor
+# Lvb_Password Encryptor
 
 ## Overview
 A Python-based secure password encryption tool that provides:
@@ -20,10 +20,6 @@ Run the script and follow the interactive menu:
 ```bash
 python password_encryptor.py
 ```
-
-## Security Notes
-- Keep the `encryption.key` file secure and private
-- Do not commit the encryption key to version control
 
 ## Features
 - Symmetric encryption using Fernet
