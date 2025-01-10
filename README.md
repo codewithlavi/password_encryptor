@@ -6,11 +6,6 @@ Password encryption # Password decryption ;
 ## Requirements :
 - Python 3.x
 - cryptography library (Fernet)
-
-## Installation
-```pip install cryptography
-```
-
 ## Usage
 Run the script and follow the interactive menu:
 in Bash terminal -run 
