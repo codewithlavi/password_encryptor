@@ -3,12 +3,12 @@
 ## This repo is a Python-based secure password encryption application that provides:
 Password encryption # Password decryption ;
 
-## Requirements
+## Requirements :
 - Python 3.x
 - cryptography library (Fernet)
 
 ## Installation
-```bash ,then pip install cryptography
+```pip install cryptography
 ```
 
 ## Usage
