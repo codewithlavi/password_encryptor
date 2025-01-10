@@ -1,25 +1,20 @@
 # Lvb_Password Encryptor
 
-## Overview
-A Python-based secure password encryption tool that provides:
-- Password encryption
-- Password decryption
-- Strong password generation
+## This repo is a Python-based secure password encryption application that provides:
+Password encryption # Password decryption ;
 
 ## Requirements
 - Python 3.x
-- cryptography library
+- cryptography library (Fernet)
 
 ## Installation
-```bash
-pip install cryptography
+```bash ,then pip install cryptography
 ```
 
 ## Usage
 Run the script and follow the interactive menu:
-```bash
+in Bash terminal -run 
 python password_encryptor.py
-```
 
 ## Features
 - Symmetric encryption using Fernet
