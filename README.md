@@ -1,6 +1,6 @@
 # Lvb_Password Encryptor
 
-## This repo is a Python-based secure password encryption application that provides:
+## This repository is a Python-based secure password encryption application that provides:
 Password encryption # Password decryption ;
 
 ## Requirements :
