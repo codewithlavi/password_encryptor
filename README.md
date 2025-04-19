@@ -18,3 +18,12 @@ in Bash terminal -run python password_encryptor.py
 - Symmetric encryption using Fernet
 - Cryptographically secure password generation
 - Interactive console interface
+#if you want to test it
+
+test_encrypt_decrypt:
+
+This test ensures that a password encrypted by encrypt_password can be successfully decrypted back to the original value using decrypt_password.
+test_generate_strong_password:
+
+Tests the generate_strong_password method to ensure it generates a password of the correct length (12 characters in this case).
+test_empty_password:
