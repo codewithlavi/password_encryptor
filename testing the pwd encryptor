@@ -1,0 +1,28 @@
+import unittest
+from src.password_encryptor import PasswordEncryptor
+
+class TestPasswordEncryptor(unittest.TestCase):
+    def setUp(self):
+        self.encryptor = PasswordEncryptor(key_file="test_encryption.key")
+
+    def tearDown(self):
+        import os
+        if os.path.exists("test_encryption.key"):
+            os.remove("test_encryption.key")
+
+    def test_encrypt_decrypt(self):
+        password = "my_secure_password"
+        encrypted = self.encryptor.encrypt_password(password)
+        decrypted = self.encryptor.decrypt_password(encrypted)
+        self.assertEqual(password, decrypted)
+
+    def test_generate_strong_password(self):
+        strong_password = self.encryptor.generate_strong_password(length=12)
+        self.assertEqual(len(strong_password), 12)
+
+    def test_empty_password(self):
+        with self.assertRaises(ValueError):
+            self.encryptor.encrypt_password("")
+
+if __name__ == "__main__":
+    unittest.main()
